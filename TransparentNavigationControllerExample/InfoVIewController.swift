@@ -18,6 +18,8 @@ class InfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = .clear
+        
         if let item = self.item {
             self.colorView.backgroundColor = item.color
             self.titleView.text = item.title

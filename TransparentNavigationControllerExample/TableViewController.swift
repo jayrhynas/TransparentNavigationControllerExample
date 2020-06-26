@@ -10,6 +10,13 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.backgroundColor = .clear
+        tableView.backgroundColor = .clear
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
