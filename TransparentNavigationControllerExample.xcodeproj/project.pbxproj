@@ -17,6 +17,7 @@
 		9A1A2FB624A671E700F17ACA /* ModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A2FB524A671E700F17ACA /* ModelItem.swift */; };
 		9A1A2FB824A6732100F17ACA /* InfoVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A2FB724A6732100F17ACA /* InfoVIewController.swift */; };
 		9A1A2FBA24A6763400F17ACA /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A2FB924A6763400F17ACA /* NavigationController.swift */; };
+		9A1A2FC024A67A5900F17ACA /* AutoMaskingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A2FBF24A67A5900F17ACA /* AutoMaskingLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9A1A2FB524A671E700F17ACA /* ModelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelItem.swift; sourceTree = "<group>"; };
 		9A1A2FB724A6732100F17ACA /* InfoVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVIewController.swift; sourceTree = "<group>"; };
 		9A1A2FB924A6763400F17ACA /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		9A1A2FBF24A67A5900F17ACA /* AutoMaskingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMaskingLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,19 +66,28 @@
 		9A1A2F9A24A66B5000F17ACA /* TransparentNavigationControllerExample */ = {
 			isa = PBXGroup;
 			children = (
+				9A1A2FB924A6763400F17ACA /* NavigationController.swift */,
+				9A1A2FBF24A67A5900F17ACA /* AutoMaskingLayer.swift */,
+				9A1A2FC224A67FFB00F17ACA /* Other */,
+			);
+			path = TransparentNavigationControllerExample;
+			sourceTree = "<group>";
+		};
+		9A1A2FC224A67FFB00F17ACA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A2F9F24A66B5000F17ACA /* ViewController.swift */,
 				9A1A2FB324A671DC00F17ACA /* TableViewController.swift */,
-				9A1A2FB524A671E700F17ACA /* ModelItem.swift */,
 				9A1A2FB724A6732100F17ACA /* InfoVIewController.swift */,
+				9A1A2FB524A671E700F17ACA /* ModelItem.swift */,
 				9A1A2F9B24A66B5000F17ACA /* AppDelegate.swift */,
 				9A1A2F9D24A66B5000F17ACA /* SceneDelegate.swift */,
-				9A1A2F9F24A66B5000F17ACA /* ViewController.swift */,
 				9A1A2FA124A66B5000F17ACA /* Main.storyboard */,
-				9A1A2FB924A6763400F17ACA /* NavigationController.swift */,
 				9A1A2FA424A66B5200F17ACA /* Assets.xcassets */,
 				9A1A2FA624A66B5200F17ACA /* LaunchScreen.storyboard */,
 				9A1A2FA924A66B5200F17ACA /* Info.plist */,
 			);
-			path = TransparentNavigationControllerExample;
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A1A2FA024A66B5000F17ACA /* ViewController.swift in Sources */,
+				9A1A2FC024A67A5900F17ACA /* AutoMaskingLayer.swift in Sources */,
 				9A1A2F9C24A66B5000F17ACA /* AppDelegate.swift in Sources */,
 				9A1A2FB824A6732100F17ACA /* InfoVIewController.swift in Sources */,
 				9A1A2FB624A671E700F17ACA /* ModelItem.swift in Sources */,

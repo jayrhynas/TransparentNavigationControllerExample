@@ -153,7 +153,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Oil-5g-akQ">
             <objects>
-                <navigationController id="p1N-x7-4hl" sceneMemberID="viewController">
+                <navigationController id="p1N-x7-4hl" customClass="NavigationController" customModule="TransparentNavigationControllerExample" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ek6-Xr-Jlg">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -166,10 +166,10 @@
             </objects>
             <point key="canvasLocation" x="1070" y="138"/>
         </scene>
-        <!--Container View Controller-->
+        <!--View Controller-->
         <scene sceneID="ISk-cK-BJc">
             <objects>
-                <viewController id="gJJ-bW-f0N" customClass="ContainerViewController" customModule="TransparentNavigationControllerExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gJJ-bW-f0N" sceneMemberID="viewController">
                     <visualEffectView key="view" opaque="NO" contentMode="scaleToFill" id="GPK-6a-BQH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -178,7 +178,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RlD-Mf-0hm">
-                                    <rect key="frame" x="0.0" y="-54" width="414" height="842"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                     <connections>
                                         <segue destination="p1N-x7-4hl" kind="embed" id="aCa-9a-UE9"/>
                                     </connections>
